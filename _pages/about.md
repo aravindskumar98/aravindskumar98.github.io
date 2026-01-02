@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: building AI agents and making surgical robots more accessible
+subtitle: Building AI agents and making surgical robots more accessible
 
 profile:
   align: right
