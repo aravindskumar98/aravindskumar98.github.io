@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-25'
 papers:
+  2CZCKtgAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: 'G-SHARP: Gaussian Surgical Hardware Accelerated Real-time Pipeline'
+    year: '2025'
   2CZCKtgAAAAJ:d1gkVwhDpl0C:
     citations: 8
     title: 'SlicerROS2: A research and development module for image-guided robotic interventions'
