@@ -17,7 +17,9 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    # Keep the locked dependency available without loading the optional minifier.
+    # It can silently omit JavaScript assets on machines without a JS runtime.
+    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git", require: false
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
